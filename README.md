@@ -1,5 +1,7 @@
 # barrage-checker
 
+[![PyPI](https://img.shields.io/pypi/v/barrage-checker)](https://pypi.org/project/barrage-checker/) [![Python](https://img.shields.io/pypi/pyversions/barrage-checker)](https://pypi.org/project/barrage-checker/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **Checker and validator for the Barrage language.**
 
 Barrage is a plain-language format that makes any code readable by anyone (including people who do not program).  
@@ -11,7 +13,6 @@ This package checks whether a document follows the official Barrage structure.
 pip install barrage-checker
 ```
 
-(Once published to PyPI)
 
 Or install directly from GitHub:
 
