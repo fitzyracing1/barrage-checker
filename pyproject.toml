@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "barrage-checker"
+version = "1.0.0"
+description = "Checker and validator for the Barrage language — makes code readable by anyone"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Joshua Almeida", email = "fitzyracing1@gmail.com"}
+]
+keywords = ["barrage", "documentation", "plain-language", "code-readability", "markup"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Text Processing :: Markup",
+]
+
+[project.urls]
+Homepage = "https://github.com/fitzyracing1/barrage-checker"
+Repository = "https://github.com/fitzyracing1/barrage-checker"
+"Bug Tracker" = "https://github.com/fitzyracing1/barrage-checker/issues"
+"Barrage Language" = "https://github.com/fitzyracing1/barrage"
+
+[project.scripts]
+barrage-check = "barrage_checker.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["barrage_checker*"]
