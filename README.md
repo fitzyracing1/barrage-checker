@@ -70,3 +70,8 @@ The tool verifies that a Barrage document contains all required sections defined
 ## License
 
 MIT
+
+## Documentation
+
+- In-repo docs: [docs/](docs/overview.md)
+- Wiki: [https://github.com/fitzyracing1/barrage-checker/wiki](https://github.com/fitzyracing1/barrage-checker/wiki)
