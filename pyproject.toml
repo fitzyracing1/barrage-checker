@@ -32,6 +32,7 @@ Homepage = "https://github.com/fitzyracing1/barrage-checker"
 Repository = "https://github.com/fitzyracing1/barrage-checker"
 "Bug Tracker" = "https://github.com/fitzyracing1/barrage-checker/issues"
 "Barrage Language" = "https://github.com/fitzyracing1/barrage"
+Funding = "https://github.com/sponsors/fitzyracing1"
 
 [project.scripts]
 barrage-check = "barrage_checker.cli:main"
